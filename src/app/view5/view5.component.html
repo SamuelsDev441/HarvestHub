@@ -1,0 +1,11 @@
+<button igxButton="outlined" igxRipple routerLink="/view6" class="button">
+  Create An Account
+</button>
+<igx-input-group type="box" class="email">
+  <input type="email" [(ngModel)]="email" placeholder="john.doe@example.com" [required]="true" igxInput />
+  <label igxLabel>Email address here</label>
+</igx-input-group>
+<igx-input-group type="border" class="input">
+  <input type="tel" [required]="true" igxInput />
+  <label igxLabel>Phone</label>
+</igx-input-group>
